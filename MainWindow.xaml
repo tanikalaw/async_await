@@ -1,0 +1,46 @@
+﻿<Window
+    x:Class="Async_and_Await.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Async_and_Await"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBlock
+            Margin="15"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="30"
+            LineHeight="Auto"
+            Text="Demo Async Execution" />
+
+        <Button
+            Width="500"
+            Height="30"
+            Margin="146,75,146,314"
+            Content="Normal Execution" />
+
+        <Button
+            Width="500"
+            Height="30"
+            Margin="146,181,146,208"
+            Content="Parallel Async Execution" />
+        <Button
+            Width="500"
+            Height="30"
+            Margin="146,126,146,263"
+            Content="Async Execute" />
+        <Button
+            Width="500"
+            Height="30"
+            Margin="146,228,146,161"
+            Content="Cancel Operation" />
+        
+        <ItemsControl />
+    </Grid>
+</Window>
